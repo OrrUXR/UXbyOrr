@@ -139,94 +139,108 @@ demo06: {
     mediumImage: 'img/portfolio/P6.png',
     largeParagraph: `
         <!-- Section 1: Objective -->
-       <h3><b>Objective:</b></h3>
-<p>
-A training program transitioning from in-person to digital experiences noticed that their digital training resulted in less desirable outcomes, including lower user enjoyment, decreased cognitive engagement, and poor retention of training materials. I was tasked with understanding why these issues were occurring and providing actionable design considerations to improve the digital training experience. A critical design question arose during this research: how could modern interfaces, such as motion controllers, be leveraged to resolve these issues? Specifically, should motion controllers act as a direct extension of the users’ hands (i.e., two motion controllers), or should a single motion controller serve as a stand-in for the object itself (i.e., manipulations of the controller directly mirrored manipulations of the digital object)? This study sought to answer these questions by exploring how these interface design choices impact user behavior, cognitive engagement, task performance, and experience perceptions.
-</p>
+        <h3><b>Objective:</b></h3>
+        <p>
+        A training program transitioning from in-person to digital experiences noticed less desirable outcomes, including reduced user enjoyment, lower cognitive engagement, and poor retention of training materials. I was tasked with identifying the reasons behind these issues and providing actionable design considerations to enhance the digital training experience. A critical design question arose: how could motion controllers be leveraged to resolve these issues? Specifically, should controllers mimic user hands (dual controllers) or act as surrogates for objects (single controller)? This study explored how interface design impacts user behavior, engagement, performance, and experience perceptions.
+        </p>
+        
         <!-- Section 2: My Responsibilities -->
         <h3><b>My Responsibilities: Senior Researcher</b></h3>
-<ul>
-  <li><b>Research Leadership:</b> Designed and led the study to evaluate the impact of real-world actions on hands-on training in digital environments.</li>
-  <li><b>Study Design and Execution:</b> Developed and implemented all aspects of the study, including experimental design, participant recruitment, and participant pool management.</li>
-  <li><b>Technical Documentation:</b> Authored all necessary documentation, including research protocols, regulatory submissions, use specifications, and study scripts.</li>
-  <li><b>Participant Management:</b> Managed the participant pool, including recruiting over 100 participants, scheduling sessions, and ensuring informed consent protocols were followed.</li>
-  <li><b>Data Collection:</b> Facilitated usability testing sessions, conducted cognitive walkthroughs, and collected survey-based user feedback.</li>
-  <li><b>Data Processing:</b> Processed and coded qualitative and quantitative data, including user transcripts, behavioral observations, and survey results.</li>
-  <li><b>Data Analysis:</b> Conducted multivariate statistical analyses (MANOVA) to identify group differences and tested hypotheses about interface impacts.</li>
-  <li><b>Collaboration:</b> Worked closely with design and engineering consultants to iteratively refine the digital interfaces based on findings.</li>
-  <li><b>Stakeholder Communication:</b> Delivered regular updates and presented research progress to project managers and stakeholders.</li>
-  <li><b>Recommendations and Final Deliverables:</b> Synthesized findings into actionable recommendations and presented final insights to stakeholders to inform future design strategies.</li>
-</ul>
+        <ul>
+          <li><b>Research Leadership:</b> Designed and led the study to evaluate real-world actions in digital environments.</li>
+          <li><b>Study Design and Execution:</b> Developed all aspects of the study, including experimental design, recruitment, and management of 100+ participants.</li>
+          <li><b>Documentation:</b> Authored research protocols, regulatory submissions, and use specifications.</li>
+          <li><b>Data Collection:</b> Conducted usability testing, cognitive walkthroughs, and surveys for data gathering.</li>
+          <li><b>Data Analysis:</b> Processed qualitative and quantitative data and conducted multivariate analyses.</li>
+          <li><b>Collaboration:</b> Partnered with design and engineering teams to iteratively refine digital interfaces.</li>
+          <li><b>Stakeholder Engagement:</b> Delivered insights and recommendations to stakeholders to inform design strategies.</li>
+        </ul>
 
         <!-- Section 3: The Work -->
-       <h3><b>The Work:</b></h3>
-<p>This study aimed to provide designers and engineers with a roadmap for improving hands-on experiences in digital environments. The research focused on evaluating how integrating real-world actions into digital, hands-on training could enhance user performance and perceptions. The following activities were undertaken:</p>
-<ul>
-  <li><b>Interface Design:</b> Developed and tested three distinct digital interfaces to compare traditional mouse-based controls with single-hand motion controllers and dual-hand motion controllers.</li>
-  <li><b>Usability Testing:</b> Conducted extensive usability testing sessions involving over 100 participants across multiple experimental conditions. These sessions were designed to evaluate user behaviors, cognitive engagement, task performance, and perceptions of their training experience.</li>
-  <li><b>Data Integration:</b> Triangulated user feedback from interviews and surveys with quantitative performance metrics to test hypotheses regarding the impact of interface differences on cognitive engagement and task success.</li>
-  <li><b>Iterative Development:</b> Collaborated closely with design and engineering consultants to refine the interfaces and testing setups through iterative improvements based on findings from the testing sessions.</li>
-  <li><b>Final Presentation:</b> Presented comprehensive findings and actionable design recommendations to project managers and stakeholders. Delivered insights into optimizing digital training interfaces to enhance user engagement, performance, and satisfaction.</li>
-</ul>
+        <h3><b>The Work:</b></h3>
+        <p>
+        This study sought to provide actionable recommendations for improving digital hands-on training experiences. The work focused on evaluating interfaces to determine how real-world actions could enhance user performance and satisfaction.
+        </p>
+        <ul>
+          <li><b>Interface Design:</b> Developed and tested three interfaces: traditional mouse-based, single-hand motion controller, and dual-hand motion controller.</li>
+          <li><b>Usability Testing:</b> Conducted sessions with 100+ participants to evaluate behaviors, cognitive engagement, and training perceptions.</li>
+          <li><b>Data Integration:</b> Combined interviews, surveys, and performance metrics to assess interface effectiveness.</li>
+          <li><b>Iterative Development:</b> Collaborated with teams to refine interfaces based on findings.</li>
+          <li><b>Final Presentation:</b> Delivered findings and design recommendations to stakeholders for implementation.</li>
+        </ul>
 
         <!-- Section 4: Methodologies, Data Processing, and Analysis -->
         <h3><b>Methodologies, Data Processing, and Analysis:</b></h3>
-<ul>
-  <li><b>Study Design:</b> This research employed a 2 x 2 between-groups experimental design alongside a control group (mouse interface) to investigate how interface differences influenced user behaviors, cognitive engagement, task performance, and experience perceptions.</li>
-  <li><b>Methodologies:</b>
-    <ul>
-      <li><b>Mixed Methods Approach:</b> Combined qualitative and quantitative methodologies to provide a comprehensive understanding of user interactions and outcomes.</li>
-      <li><b>Components:</b>
         <ul>
-          <li>Pre-task skill assessment</li>
-          <li>Usability testing</li>
-          <li>Cognitive walkthrough</li>
-          <li>Behavior assessment</li>
-          <li>Post-task skill assessment</li>
-          <li>Survey-based user feedback</li>
+          <li><b>Study Design:</b> Used a 2x2 between-groups experimental design and a control group to explore the effects of interface differences on engagement, behavior, and task performance. 
+              <br><i>Rationale:</i> The design allowed controlled comparisons while isolating the impact of specific interface types.</li>
+          
+          <li><b>Mixed Methods Approach:</b>
+            <ul>
+              <li>Pre-task skill assessment, usability testing, cognitive walkthroughs, and surveys were employed.</li>
+              <li><i>Rationale:</i> Combining qualitative and quantitative methods provided a holistic view of user interactions and experiences.</li>
+            </ul>
+          </li>
+
+          <li><b>Data Processing:</b>
+            <ul>
+              <li>User transcripts were coded into 7,409 data points for cognitive analysis.</li>
+              <li>Behavioral video data yielded 8,069 observations.</li>
+              <li>Task performance was scored using a 10-item retention and reasoning assessment.</li>
+              <li>Survey data (20 Likert items) captured enjoyment, usability, engagement, and training value.</li>
+              <li><i>Rationale:</i> This approach ensured granular analysis of cognitive, behavioral, and perceptual dimensions.</li>
+            </ul>
+          </li>
+
+          <li><b>Data Analysis:</b>
+            <ul>
+              <li><b>Thematic Analysis:</b> Identified key themes and user pain points.</li>
+              <li><b>Multivariate Analysis of Variance (MANOVA):</b> Tested group differences across cognitive engagement, task performance, and user feedback metrics.</li>
+              <li><b>Tools:</b> SPSS and R were used for statistical precision.</li>
+              <li><i>Rationale:</i> Advanced statistical methods enabled robust testing of hypotheses and ensured actionable insights.</li>
+            </ul>
+          </li>
         </ul>
-      </li>
-    </ul>
-  </li>
-  <li><b>Data Processing:</b>
-    <ul>
-      <li>User transcripts were segmented and coded, yielding 7,409 individual data points for cognitive engagement analysis.</li>
-      <li>Videos of user behavior were tagged, resulting in 8,069 individual data points for behavioral analysis.</li>
-      <li>Task performance was scored using a rubric based on accuracy in a 10-item retention and reasoning assessment (post-task skill assessment) about the training content.</li>
-      <li>The user-feedback survey was a 20-item Likert-style questionnaire assessing perceptions of enjoyment, usability, engagement, training value, and task usefulness, with four items per construct rated on a 6-point scale.</li>
-    </ul>
-  </li>
-  <li><b>Data Analyses:</b>
-    <ul>
-      <li><b>Thematic Analysis:</b> Applied to user transcripts to identify overarching themes, including verbally expressed observations and pain points during the activities.</li>
-      <li><b>Multivariate Analysis of Variance (MANOVA):</b> Used to examine group differences in user behaviors, cognitive engagement (segment counts), task performance, and survey responses.</li>
-      <li><b>Tools:</b> Conducted analyses using SPSS and R for statistical rigor and accuracy.</li>
-    </ul>
-  </li>
-</ul>
 
-        <!-- Section 5: Outcomes -->
-       <h3><b>Outcomes:</b></h3>
+     <!-- Key Findings -->
+        <h3><b>Key Findings:</b></h3>
+        <ul>
+            <li><b>User Behavior:</b> Both single-controller and double-controller users demonstrated significantly more behaviors associated with real-world utility compared to the control (mouse interface). This indicates that motion-based interactions aligned more closely with the natural affordances of hands-on training, promoting more effective and realistic task performance.</li>
+            <li><b>Cognitive Engagement:</b>
+                <ul>
+                    <li>Single motion controller users exhibited significantly greater cognitive engagement than those using two motion controllers and the mouse interface.</li>
+                    <li>Two motion controller users showed no significant difference in cognitive engagement when compared to the mouse interface users.</li>
+                </ul>
+                These findings suggest that a simplified interaction (single motion controller) encouraged deeper cognitive processing and minimized cognitive overload compared to dual-controller interactions or traditional interfaces.
+            </li>
+            <li><b>Post-Task Skill Assessment:</b>
+                <ul>
+                    <li>Single motion controller users outperformed both two-controller and mouse interface users in skill assessments, demonstrating higher retention and application of training content.</li>
+                    <li>No significant difference in performance was observed between two motion controller users and mouse interface users.</li>
+                </ul>
+                These results underscore the effectiveness of the single motion controller in enhancing task mastery and knowledge retention.
+            </li>
+            <li><b>User Feedback:</b>
+                <ul>
+                    <li>Participants using single and two motion controllers rated their experience significantly higher in terms of enjoyment, usability, and perceived training value compared to mouse interface users.</li>
+                    <li>Two motion controller users expressed frustration due to limitations in manipulation and task completion ease, while single motion controller users described their experience as intuitive and satisfying.</li>
+                </ul>
+            </li>
+            <li><b>Thematic Insights:</b> Natural interactions facilitated by motion controllers were universally appreciated for their alignment with real-world actions. The single motion controller's design, where the controller acted as a surrogate for the object rather than the user's hand, was particularly effective at bridging the gap between digital and physical experiences.</li>
+        </ul>
 
-<ul>
-  <li><b>Key Findings:</b></li>
-  <ul>
-        <li><b>User Behavior:</b> Both single-controller and double-controller users engaged in significantly more desired behaviors associated with real-world utility than control.</li>
-    <li><b>Cognitive Engagement:</b> Control and two motion controller users did not significantly differ in depth of cognitive engagement. Single motion controller users exhibited significantly greater depth of cognitive engagement than those using two motion controllers and control.</li>
-    <li><b>Post-Task Skill Assessment:</b> No difference was observed between control and two motion controller users. Single motion controller users had significantly higher performance.</li>
-    <li><b>User Feedback:</b> Two motion controller and single motion controller users rated their experiences significantly higher than control, but did not differ between each other.</li>
-    <li><b>Themes:</b> Both the users with two and single motion controllers expressed more positive sentiment during their experience than those using control. However, those working with control and two motion controllers repeatedly expressed frustration in not being able to manipulate objects in the ways they wanted to or experiencing difficulty in completing simple tasks with those interfaces.</li>
-    <li><b>Design Recommendations:</b> Affording natural manipulations of digital objects during hands-on training yielded significant improvements in all facets of concern. However, the single motion controller—where the controller served as a surrogate for the object and not the user’s hand—significantly improved all measurable outcomes overall. As such, in this instance, a single motion controller should be used for hands-on training moving forward.</li>
-</ul>
-
-  <li><b>Design Recommendations:</b></li>
-  <ul>
-    <li><b>Motion Interfaces Moving Forward:</b> Affording natural manipulations of digital objects during hands-on training yielded significant improvements in all facets of concern, including user behavior, cognitive engagement, and task performance. As such, motion control interfaces should be used for hands-on training instead of the mouse interface.</li>
-    <li><b>Single Motion Controller Design:</b> The single motion controller—where the controller served as a surrogate for the object and not the user’s hand—significantly improved all measurable outcomes overall. Based on these findings, it was recommended to use a single motion controller for hands-on training moving forward.</li>
-</ul>
-</ul>
+        <!-- Design Recommendations -->
+        <h3><b>Design Recommendations:</b></h3>
+        <ul>
+            <li><b>Adopt Motion Controllers for Digital Training:</b> Replace mouse-based interfaces with motion controllers to better align digital training environments with real-world physical interactions. This approach has been shown to improve user behavior, task performance, and engagement.</li>
+            <li><b>Prioritize Single Motion Controller Design:</b> Use a single motion controller that acts as a surrogate for the object being manipulated. This design simplifies interactions, reduces cognitive overload, and enhances user performance and satisfaction, as evidenced by significantly improved outcomes across all metrics.</li>
+            <li><b>Incorporate Intuitive Manipulation Features:</b> Ensure that motion controllers afford natural and realistic object manipulations, minimizing user frustration and improving task completion ease.</li>
+            <li><b>Iteratively Test and Refine Interfaces:</b> Continue conducting user-centered research to refine the interface based on feedback and observed behaviors. Employ a mixed-methods approach to validate improvements and ensure alignment with user needs.</li>
+            <li><b>Focus on Cognitive Engagement:</b> Design training tasks that leverage the deeper cognitive processing facilitated by single motion controllers to maximize retention and task mastery.</li>
+        </ul>
     `
 },
+
 
    demo07: {
     title: 'Research: Can Machine Learning Enhance Digital Learning with Personalized Interventions?',
@@ -241,11 +255,11 @@ The course designer for a paleontology program at the University of Utah identif
         <!-- Section 2: My Responsibilities -->
 <h3><b>My Responsibilities: Research Fellow</b></h3>
 <ul>
-  <li><b>Research Leadership:</b> Led and designed usability studies aimed at encouraging specific user behaviors, capturing real-time perceptions, and collecting actionable user feedback to inform design decisions.</li>
+  <li><b>Research Leadership:</b> Led and designed usability studies aimed at encouraging specific user behaviors that could be readily identified in log data, capturing real-time perceptions, and collecting actionable user feedback to inform design decisions.</li>
   <li><b>Study Design and Execution:</b> Developed and implemented comprehensive study plans, including experimental design, participant recruitment strategies, and management of the participant pool throughout the research process.</li>
   <li><b>Technical Documentation:</b> Authored critical research documentation, such as research protocols, regulatory submissions, study scripts, and use specifications, ensuring clarity and compliance with industry standards.</li>
   <li><b>Participant Management:</b> Coordinated participant recruitment efforts, scheduling, and ensured adherence to informed consent protocols, effectively managing a pool of over 50 participants for the study.</li>
-  <li><b>Data Collection:</b> Facilitated usability testing sessions, conducted cognitive walkthroughs, and gathered survey-based user feedback to assess interactions with the platform.</li>
+  <li><b>Data Collection:</b> Facilitated usability testing sessions, conducted cognitive walkthroughs, interviews, and gathered survey-based user feedback to assess interactions with the platform.</li>
   <li><b>Data Processing:</b> Processed and coded both qualitative and quantitative data, including user transcripts, behavioral observations, and survey responses, to prepare for comprehensive analysis.</li>
 <li><b>Data Analysis:</b> Conducted data mining and decision tree analysis on user log-trace data to cluster interaction behaviors, which were used to train the platform's personalized response system. Additionally, performed thematic and semantic analysis of users' cognitive walkthroughs to identify patterns in user thought processes. User feedback surveys provided valuable insights into participants' perceptions of the system's functionality and the effectiveness of the agent's behavior identification capabilities.</li>
 
@@ -254,95 +268,303 @@ The course designer for a paleontology program at the University of Utah identif
   <li><b>Recommendations and Final Deliverables:</b> Synthesized key findings into actionable design recommendations and presented these insights to the team, informing future platform refinements and development strategies.</li>
 </ul>
 
-        <!-- Section 3: The Work -->
-       <h3><b>The Work:</b></h3>
-<p>This study aimed to provide designers and engineers with a roadmap for improving hands-on experiences in digital environments. The research focused on evaluating how integrating real-world actions into digital, hands-on training could enhance user performance and perceptions. The following activities were undertaken:</p>
+              <!-- Section 3: The Work -->
+<h3><b>The Work:</b></h3>
+<p>
+This study aimed to provide a course designer with an automated system capable of identifying and classifying user behaviors with digital objects as they engaged in science inquiry practices. The goal was to identify user pain points and provide recommendations for iterative improvements. Participants were university students enrolled in introductory science courses.
+</p>
 <ul>
-  <li><b>Interface Design:</b> Developed and tested three distinct digital interfaces to compare traditional mouse-based controls with single-hand motion controllers and dual-hand motion controllers.</li>
-  <li><b>Usability Testing:</b> Conducted extensive usability testing sessions involving over 100 participants across multiple experimental conditions. These sessions were designed to evaluate user behaviors, cognitive engagement, task performance, and perceptions of their training experience.</li>
-  <li><b>Data Integration:</b> Triangulated user feedback from interviews and surveys with quantitative performance metrics to test hypotheses regarding the impact of interface differences on cognitive engagement and task success.</li>
-  <li><b>Iterative Development:</b> Collaborated closely with design and engineering consultants to refine the interfaces and testing setups through iterative improvements based on findings from the testing sessions.</li>
-  <li><b>Final Presentation:</b> Presented comprehensive findings and actionable design recommendations to project managers and stakeholders. Delivered insights into optimizing digital training interfaces to enhance user engagement, performance, and satisfaction.</li>
+    <li><b>Object Interaction:</b> Participants interacted with three distinct fossils: a jaw, claw, and femur. They were asked to manipulate the objects freely while making observations aloud (cognitive walkthrough).</li>
+    <li><b>Task-Specific Manipulations:</b> After the free exploration phase, participants performed specific tasks, such as functional motions, rotations, and zooming.</li>
+    <li><b>User Feedback:</b> Participants were interviewed in an unstructured format to discuss pain points and experiences.</li>
+    <li><b>Survey Responses:</b> Participants completed a survey evaluating their engagement, enjoyment, usability, and perceptions of the educational value of the experience.</li>
+    <li><b>Phase Two Validation:</b> A second group of participants interacted with the objects without explicit instructions. Their data served as a test dataset for validating the decision tree classification system trained with phase one data.</li>
 </ul>
 
-        <!-- Section 4: Methodologies, Data Processing, and Analysis -->
-        <h3><b>Methodologies, Data Processing, and Analysis:</b></h3>
+
+<!-- Section 4: Methodologies, Data Processing, and Analysis -->
+<h3><b>Methodologies, Data Processing, and Analysis:</b></h3>
 <ul>
-  <li><b>Study Design:</b> This research employed a 2 x 2 between-groups experimental design alongside a control group (mouse interface) to investigate how interface differences influenced user behaviors, cognitive engagement, task performance, and experience perceptions.</li>
+  <li><b>Study Design:</b> This was an exploratory style study where user behaviors within a digital environment were gathered to train an automated system. As such, there were no experimental groups, and all data was gathered from all users.
+    <ul>
+      <li><b>Rationale:</b> An exploratory design was chosen to gather comprehensive insights from a wide range of user interactions. Without preset group comparisons, the focus was on creating a robust training dataset for the automated system and capturing naturalistic user behaviors.</li>
+    </ul>
+  </li>
   <li><b>Methodologies:</b>
     <ul>
-      <li><b>Mixed Methods Approach:</b> Combined qualitative and quantitative methodologies to provide a comprehensive understanding of user interactions and outcomes.</li>
+      <li><b>Mixed Methods Approach:</b> This combined qualitative and quantitative data to offer a holistic understanding of user behaviors and perceptions.
+        <ul>
+          <li><b>Rationale:</b> A mixed-methods approach ensured that both measurable behavioral patterns and user experiences were captured, enabling the integration of data for system training and iterative platform refinement.</li>
+        </ul>
+      </li>
       <li><b>Components:</b>
         <ul>
-          <li>Pre-task skill assessment</li>
-          <li>Usability testing</li>
-          <li>Cognitive walkthrough</li>
-          <li>Behavior assessment</li>
-          <li>Post-task skill assessment</li>
-          <li>Survey-based user feedback</li>
+          <li>Usability testing, cognitive walkthrough, log analysis (decision tree), unstructured interview, user survey.</li>
+          <li><b>Rationale:</b> Each methodology was chosen for its ability to address specific objectives:
+            <ul>
+              <li><b>Usability testing:</b> To identify functional and interaction pain points.</li>
+              <li><b>Cognitive walkthrough:</b> To explore user thought processes and uncover usability issues in real-time.</li>
+              <li><b>Log analysis:</b> To capture precise, timestamped behavioral data for system training.</li>
+              <li><b>Unstructured interviews:</b> To allow users to openly express sentiments, uncovering nuances not easily detected through structured feedback.</li>
+              <li><b>User surveys:</b> To quantify perceptions of usability, engagement, and educational value.</li>
+            </ul>
+          </li>
         </ul>
       </li>
     </ul>
   </li>
   <li><b>Data Processing:</b>
     <ul>
-      <li>User transcripts were segmented and coded, yielding 7,409 individual data points for cognitive engagement analysis.</li>
-      <li>Videos of user behavior were tagged, resulting in 8,069 individual data points for behavioral analysis.</li>
-      <li>Task performance was scored using a rubric based on accuracy in a 10-item retention and reasoning assessment (post-task skill assessment) about the training content.</li>
-      <li>The user-feedback survey was a 20-item Likert-style questionnaire assessing perceptions of enjoyment, usability, engagement, training value, and task usefulness, with four items per construct rated on a 6-point scale.</li>
+      <li>Log-trace data was collected at one-second intervals, including all axes coordinates of the object at a given time. Data processing included transforming this information to reveal changes in coordinates from second to second. Specific behavior timeframes were timestamped, and data was transformed to show second-to-second changes.</li>
+      <li>Interviews and cognitive walkthroughs were transcribed for coding.</li>
+      <li>Surveys were scored using a Likert scale system (1–6), where low scores represented disagreement. Negative items were reverse-scored.</li>
+      <li><b>Rationale:</b> Precise log data transformations ensured the system could detect subtle behavior shifts, forming the foundation for accurate classification. Thematic coding of transcripts allowed for deep qualitative insights, and Likert-scale scoring simplified perception analysis while maintaining granularity.</li>
     </ul>
   </li>
   <li><b>Data Analyses:</b>
     <ul>
-      <li><b>Thematic Analysis:</b> Applied to user transcripts to identify overarching themes, including verbally expressed observations and pain points during the activities.</li>
-      <li><b>Multivariate Analysis of Variance (MANOVA):</b> Used to examine group differences in user behaviors, cognitive engagement (segment counts), task performance, and survey responses.</li>
-      <li><b>Tools:</b> Conducted analyses using SPSS and R for statistical rigor and accuracy.</li>
+      <li>User behavior data (i.e., logged positional data) were analyzed using RapidMiner via decision tree analysis to identify and validate behavior patterns. Phase two users (unprompted behaviors) were used to test and validate the training data gathered from phase one users (prompted behaviors).</li>
+      <li>Interviews and cognitive walkthroughs were analyzed using thematic analysis to extract common pain points, sentiments, and other insights.</li>
+      <li>Surveys were analyzed using simple statistical methods to highlight user perceptions across key constructs.</li>
+      <li><b>Rationale:</b> Decision tree analysis offered an efficient and interpretable method for classifying user behaviors. Thematic analysis of qualitative data provided depth, while survey analysis revealed overall trends to validate findings and guide future development.</li>
     </ul>
+    <li><b>Tools:</b> Conducted analyses using RapidMiner and R for statistical rigor and accuracy.
+      <ul>
+        <li><b>Rationale:</b> These tools ensured precise data handling, robust statistical analysis, and accurate pattern detection, critical for training the automated system and deriving actionable insights.</li>
+      </ul>
+    </li>
   </li>
 </ul>
 
+
         <!-- Section 5: Outcomes -->
-       <h3><b>Outcomes:</b></h3>
+<h3><b>Key Findings:</b></h3>
+<ul>
+  <li><b>Training Set Accuracy:</b> The decision tree analysis resulted in accurate classification of user behaviors in real-time for the testing data 98% of the time. Given the immense dataset (i.e., one positional data point for every second across 20 minutes of interaction), this level of accuracy was determined to be robust. It set the foundation for the next development phase: designing and deploying instructional prompts and feedback based on user behaviors.</li>
+  <li><b>User Thoughts and Feedback:</b> Users commonly expressed slight frustration with the interface’s ability to execute specific functional actions. However, they noted that thinking about the actions often sparked deeper conversations about the objects themselves. Survey data revealed that participants saw the potential of the platform as a supplemental tool in their courses, provided it included substantial guidance and tailored support. Additionally, users found the objects and the platform novel and engaging.</li>
+</ul>
+
+<h3><b>Design Recommendations:</b></h3>
+<ul>
+  <li><b>Deploy Classification System:</b> The classification system is ready for real-time deployment in future iterations to support user engagement through automated feedback and instructional prompts.</li>
+  <li><b>Test Automated Responses:</b> Further testing is needed to evaluate the timing, content, and effectiveness of automated prompts in achieving desired user outcomes, such as increased engagement or deeper inquiry.</li>
+  <li><b>Address Interface Usability:</b> Given user frustrations with specific functional interactions, focus should be placed on resolving usability issues. Enhancements may include refining interaction mechanics and testing alternative input methods or user controls to reduce barriers.</li>
+  <li><b>Leverage Cognitive Prompts:</b> If physical interactions remain challenging, design prompts that encourage cognitive engagement rather than requiring complex physical interactions. This approach could still achieve desired outcomes without relying on perfect interface functionality.</li>
+  <li><b>Enhance Guidance and Support:</b> Integrate context-sensitive guidance and tailored support to ensure users feel confident and engaged throughout their interactions. Consider adaptive elements that align with individual user needs based on the classification system.</li>
+  <li><b>Iterative Refinement:</b> Continue iterative development by gathering feedback on automated responses and usability updates, ensuring that improvements align with user expectations and educational objectives.</li>
+</ul>
+
+.`
+},demo08: {
+    title: "Research: Do Materials Matter to Museum Visitors?",
+    smallParagraph: "",
+    mediumImage: "img/portfolio/P8.png",
+    largeParagraph: `
+       <h3><b>Objective:</b></h3>
+<p>
+    The Natural History Museum of Utah sought to develop a new experience allowing visitors to examine and interact with fossils from its collection that were not available on the display floor. To achieve this, the museum produced high-detail laser scans of select fossils and needed to determine which medium visitors preferred for this interactive experience:
+</p>
+<ul>
+    <li><b>Gypsum powder 3D print:</b> Heavy with a texture similar to real fossils but costly to produce.</li>
+    <li><b>White PLA 3D print:</b> Lightweight and inexpensive.</li>
+    <li><b>Red PLA 3D print:</b> Lightweight, inexpensive, but with a non-conforming color.</li>
+    <li><b>Digital 3D version on a device:</b> Non-tactile but highly detailed and versatile.</li>
+</ul>
+<p>
+    I was tasked with collecting and analyzing data on how museum visitors perceived these items to guide the museum's designers in deciding which objects to feature in the new experience.
+</p>
+
+       <h3><b>My Responsibilities: Research Scientist</b></h3>
+<ul>
+    <li><b>Research Design and Planning:</b> Developed and planned the research methodology, including participant recruitment criteria, testing environments, and materials selection.</li>
+    <li><b>In Situ Testing:</b> Conducted field testing sessions in an active museum experience area where visitors interacted voluntarily, ensuring realistic insights into how the materials were perceived by typical museumgoers.</li>
+    <li><b>Survey and Data Collection:</b> Designed and administered survey materials using a combination of A/B testing, structured surveys, and interviews to gather comprehensive visitor feedback.</li>
+    <li><b>Data Processing and Analysis:</b> Processed and analyzed all collected data using both qualitative and quantitative methods to derive actionable insights.</li>
+    <li><b>Collaboration:</b> Partnered with museum professionals to align research goals with institutional priorities, ensuring the findings directly addressed the museum's key questions and needs.</li>
+    <li><b>Stakeholder Presentations:</b> Synthesized and presented final insights to stakeholders and product managers, offering clear recommendations to inform their decision-making on object selection and exhibit design.</li>
+</ul>
+
+       <h3><b>The Work:</b></h3>
+<p>This project focused on understanding how visitors perceive 3D fossils created in different mediums and identifying which materials best supported an engaging and educational museum experience. The study involved a multi-phase, counterbalanced approach to ensure comprehensive and unbiased feedback from participants.</p>
+<ul>
+    <li><b>Phase 1: Individual Object Ratings</b>
+        <ul>
+            <li>Each participant was presented with one object at a time, viewing it in isolation to avoid bias from direct comparisons.</li>
+            <li>Visitors rated each object (white PLA, red PLA, gypsum, and digital) on a 1–6 scale across four constructs:
+                <ul>
+                    <li><b>Authenticity:</b> How real or genuine the object felt.</li>
+                    <li><b>Educational Value:</b> The perceived learning potential of the object.</li>
+                    <li><b>Engagement:</b> How much interest the object generated.</li>
+                    <li><b>Enjoyment:</b> The overall pleasure derived from interacting with the object.</li>
+                </ul>
+            </li>
+            <li>After completing the ratings for one object, it was removed, and the next object was presented.</li>
+        </ul>
+    </li>
+    <li><b>Phase 2: Comparative Rankings</b>
+        <ul>
+            <li>Participants were shown all objects simultaneously and asked to rank them against each other on the same constructs.</li>
+            <li>An unstructured interview followed, during which participants explained their reasoning for their rankings, providing qualitative insights into their preferences.</li>
+        </ul>
+    </li>
+    <li><b>Data Utilization:</b> The collected quantitative and qualitative data were synthesized to inform the museum's experience design, ensuring it aligned with visitor preferences and enhanced their overall engagement.</li>
+</ul>
+
+<h3><b>Methodologies, Data Processing, and Analysis:</b></h3>
+
+<h5><b>Study Design:</b></h5>
+<p>To ensure unbiased evaluations, a counterbalanced design was employed during Phase 1. This method allowed for random assignment of the first object presented to each participant, mitigating any potential order effects. The approach ensured that initial impressions were representative of each object, free from comparison bias. Phase 2 utilized a straightforward ranking system, designed to capture participant preferences when all objects were presented side by side, simulating a real-world decision-making process.</p>
+
+<h5><b>Methodologies:</b></h5>
+<p>A mixed-methods approach was selected to provide a comprehensive understanding of visitor perceptions. The combination of quantitative methods (A/B testing and ranked surveys) and qualitative methods (unstructured interviews) allowed for triangulation of data, ensuring robust and actionable insights. A/B testing was particularly suited for isolating preferences during individual object presentations, while the interviews provided contextual depth to the numerical rankings and highlighted user motivations behind their choices.</p>
+
+<h5><b>Data Processing:</b></h5>
+<ul>
+    <li>Survey responses were coded on a 1–6 scale to standardize ratings across constructs.</li>
+    <li>Ranked object data were assigned numerical values based on preference order, allowing for straightforward aggregation and comparative analyses.</li>
+    <li>Unstructured interview responses were transcribed and processed using thematic and semantic coding, with a second rater involved to ensure inter-rater reliability and minimize subjective bias.</li>
+</ul>
+<p>This rigorous coding process ensured consistency and reliability in identifying key patterns and themes in participant feedback.</p>
+
+<h5><b>Data Analyses:</b></h5>
+<p>The analyses were conducted using both quantitative and qualitative techniques to maximize the validity and depth of insights:</p>
+<ul>
+    <li><b>Quantitative Analysis:</b> Comparative analyses, including MANOVA, were performed in SPSS and R to identify statistically significant differences across constructs and object types. This ensured a robust understanding of participant preferences at scale.</li>
+    <li><b>Qualitative Analysis:</b> Thematic and semantic coding of interview data provided nuanced insights into participant rationale, uncovering preferences and concerns not captured by numerical data alone.</li>
+</ul>
+<p>These analytical methods were chosen to complement one another, with quantitative techniques offering broad trends and qualitative methods providing detailed contextual understanding.</p>
+
+
+
+
+       <h3><b>Key Findings:</b></h3>
+<p>During Phase 1, where participants rated objects in isolation, all four objects were rated similarly across the constructs of <b>authenticity</b>, <b>educational value</b>, <b>engagement</b>, and <b>enjoyment</b>. However, in the comparative Phase 2, the rankings shifted significantly:</p>
+<ul>
+    <li><b>Gypsum 3D Object:</b> Rated the highest on all four constructs—authenticity, educational value, engagement, and enjoyment. However, 90% of visitors expressed concerns about interacting with it due to its perceived fragility, with many fearing that it could break or was too expensive to touch.</li>
+    <li><b>Digital 3D Object:</b> Surprisingly ranked second in all categories. 83% of visitors mentioned its strong educational value, not because of its use within the museum experience, but due to its potential applicability outside the museum (e.g., in classrooms or as a mobile app).</li>
+    <li><b>White PLA 3D Object:</b> Ranked third overall. Many visitors (78%) noted that the white PLA object seemed the most suitable for interactive exhibits because it felt less fragile and safer for handling, despite ranking lower in terms of authenticity and enjoyment compared to the gypsum object.</li>
+    <li><b>Red PLA 3D Object:</b> Ranked the lowest across all constructs. The color, which did not align with visitor expectations, led to it being dismissed as "fake" by many visitors. Its lack of realism diminished its perceived educational value and engagement.</li>
+</ul>
+<p>These findings underscore the importance of balancing the tactile qualities of exhibits with their perceived value in the museum context. While the gypsum object was rated highest, its fragility was a significant concern for visitors, leading them to prefer other materials for interactivity. The digital 3D object’s appeal stemmed from its educational potential beyond the museum, highlighting the importance of extending the learning experience outside of physical exhibits.</p>
+
+          <h3><b>Design Recommendations:</b></h3>
+<p>The research was conducted to determine which material choice would be best suited for an in-person museum experience, ensuring alignment with visitor perceptions and interaction preferences. The findings revealed several key considerations and recommendations:</p>
 
 <ul>
-  <li><b>Key Findings:</b></li>
-  <ul>
-        <li><b>User Behavior:</b> Both single-controller and double-controller users engaged in significantly more desired behaviors associated with real-world utility than control.</li>
-    <li><b>Cognitive Engagement:</b> Control and two motion controller users did not significantly differ in depth of cognitive engagement. Single motion controller users exhibited significantly greater depth of cognitive engagement than those using two motion controllers and control.</li>
-    <li><b>Post-Task Skill Assessment:</b> No difference was observed between control and two motion controller users. Single motion controller users had significantly higher performance.</li>
-    <li><b>User Feedback:</b> Two motion controller and single motion controller users rated their experiences significantly higher than control, but did not differ between each other.</li>
-    <li><b>Themes:</b> Both the users with two and single motion controllers expressed more positive sentiment during their experience than those using control. However, those working with control and two motion controllers repeatedly expressed frustration in not being able to manipulate objects in the ways they wanted to or experiencing difficulty in completing simple tasks with those interfaces.</li>
-    <li><b>Design Recommendations:</b> Affording natural manipulations of digital objects during hands-on training yielded significant improvements in all facets of concern. However, the single motion controller—where the controller served as a surrogate for the object and not the user’s hand—significantly improved all measurable outcomes overall. As such, in this instance, a single motion controller should be used for hands-on training moving forward.</li>
+    <li><b>Material Comparison Across Exhibits:</b> 
+        <p>When objects were presented in isolation, visitors found all materials equally engaging. However, during comparative evaluations, visitors established a clear hierarchy of preference. This indicates that visitor perceptions can be influenced by the materials used in other parts of the museum. To avoid negative bias, care should be taken to align the material types used in new exhibits with those already present in the museum. For example, if PLA is used elsewhere, new experiences should feature materials of similar or higher perceived value to maintain consistency and enhance engagement.</p>
+    </li>
+    <li><b>Use of Gypsum Materials:</b>
+        <p>Gypsum ranked highest across all constructs—authenticity, educational value, engagement, and enjoyment. However, visitors frequently expressed hesitation about manipulating these objects due to fears of breaking them. For this reason, gypsum may be best suited for moderated experiences where visitors can receive explicit instructions that handling these objects is both safe and encouraged. This approach could maximize visitor interaction while preserving the perceived value of the material.</p>
+    </li>
+    <li><b>Digital 3D Objects:</b>
+        <p>Digital objects were ranked second in the hierarchy but were often contextualized as valuable outside the museum environment. Visitors highlighted their potential for applications in classrooms, mobile devices, or at-home learning. This suggests that digital objects may serve best as supplementary tools for extending the museum experience beyond its physical space. Further exploration of their impact on remote or hybrid experiences could provide additional value to the museum's educational goals.</p>
+    </li>
+    <li><b>Use of White PLA for Unmoderated Experiences:</b>
+        <p>The white PLA objects provided a balance of engagement and educational value without eliciting concerns about fragility. Visitors were comfortable freely manipulating these objects, making them ideal for unmoderated, hands-on experiences. Incorporating white PLA into these contexts ensures visitors feel confident and encouraged to explore without constraints.</p>
+    </li>
+    <li><b>Avoiding Non-Conforming Colors:</b>
+        <p>The red PLA objects were consistently rated the lowest, with visitors frequently describing them as "fake" or unrealistic. This highlights the importance of maintaining material colors that align with visitor expectations of authenticity. Avoiding non-conforming colors like red can prevent negative perceptions and enhance overall visitor satisfaction.</p>
+    </li>
 </ul>
 
-  <li><b>Design Recommendations:</b></li>
-  <ul>
-    <li><b>Motion Interfaces Moving Forward:</b> Affording natural manipulations of digital objects during hands-on training yielded significant improvements in all facets of concern, including user behavior, cognitive engagement, and task performance. As such, motion control interfaces should be used for hands-on training instead of the mouse interface.</li>
-    <li><b>Single Motion Controller Design:</b> The single motion controller—where the controller served as a surrogate for the object and not the user’s hand—significantly improved all measurable outcomes overall. Based on these findings, it was recommended to use a single motion controller for hands-on training moving forward.</li>
-</ul>
-</ul>
-<b>Research Problem:</b> How can machine learning algorithms be utilized to improve science education by personalizing learning experiences with digital 3D representations? Specifically, how can these algorithms classify user interactions to guide instructional interventions, thereby enhancing user engagement and learning outcomes during scientific investigations with 3D fossils?<br><br>In this study, "Transforming Science Learning with 3D Representations and Personalized Learning," I explored how machine learning algorithms can be applied to tailor learning experiences using advanced 3D technologies. The objective was to address gaps in instructional strategies for integrating digital 3D representations into science education. By analyzing user interactions and responses while engaging with 3D fossils, I developed an automated system for providing "just-in-time" interventions that adapt to individual user needs.<br><br>3D materials offer a rich multimedia experience, combining visual and verbal elements, which generally results in improved learning outcomes compared to text-based materials. Despite the growing use of 3D resources in education, effective strategies for leveraging these tools to support deep learning have been underexplored. This research assessed whether personalized prompts based on user interactions with 3D materials could enhance learning experiences.<br><br>Methodologically, the study involved analyzing user interactions with digital 3D representations of fossils. Data mining techniques were used to classify interaction types and user responses, informing the creation of personalized instructional prompts. These prompts were tested in a pilot study to evaluate their effectiveness.<br><br><b>Methodologies used:</b> Data Mining, Log-Trace Analysis, Association Rule Mining, Time-Series Clustering, Survey Response Theory, 1:1 Interviews, Machine Learning Classification, Real-Time Analysis, Pedagogical Intervention Development.<br><br><b>Tools Used:</b> R Studio, Microsoft Excel, RapidMiner, IBM SPSS, Qualtrics, Github, MeshLab, Adobe Photoshop, Adobe Illustrator, Brackets, Microsoft Word.<br><br><b>Data Analyzed:</b> User interactions with digital 3D objects (i.e., log-trace positional data), user verbal utterances (e.g., observations), user survey responses (Likert and free response), user interaction patterns.<br><br><b>Outcomes:</b> The evolutionary algorithm and decision tree analysis achieved 98% accuracy in classifying user manipulations (e.g., rotation, action, zoom) during the initial phase. In the subsequent phase, the real-time classification system successfully deployed targeted behavioral prompts with 98% accuracy, effectively guiding users based on their interactions.<br><br><b>Design Considerations and Recommendations:</b><br><b>1. Implement Adaptive Machine Learning Systems:</b> Integrate machine learning algorithms to dynamically adjust learning experiences based on real-time user data. This approach ensures that instructional interventions are tailored to individual needs, enhancing user engagement and learning outcomes.<br><br><b>2. Develop Real-Time Feedback Mechanisms:</b> Create systems that provide immediate, context-sensitive feedback and guidance based on user interactions with 3D materials. This enables users to receive timely support and adapt their learning strategies accordingly.<br><br><b>3. Utilize Comprehensive Interaction Data:</b> Employ robust data collection methods to capture a wide range of user interactions, including log-trace data, verbal feedback, and survey responses. This comprehensive approach provides valuable insights into user behavior and learning processes.<br><br><b>4. Refine Classification Models:</b> Continuously improve machine learning models to accurately classify various interaction types and user states. This refinement ensures that personalized prompts are relevant and effective in addressing specific learning needs.<br><br><b>5. Focus on Scalability and Adaptability:</b> Design solutions that can be scaled across different educational settings and adaptable to various learning contexts. This ensures that personalized interventions can be applied broadly and effectively.<br><br><b>6. Incorporate User Feedback for Iterative Improvement:</b> Regularly gather and analyze user feedback to refine machine learning algorithms and instructional strategies. This iterative process helps address emerging challenges and enhances the overall effectiveness of educational interventions.<br><br><b>7. Ensure Usability and Accessibility:</b> Develop interfaces and interaction methods that are user-friendly and accessible to a diverse range of users. Prioritize inclusive design to accommodate different abilities and enhance the overall learning experience.<br><br><b>8. Align with Educational Standards:</b> Ensure that digital 3D materials and instructional interventions are aligned with relevant educational standards and curricula. This alignment helps maintain the educational relevance and effectiveness of the learning tools.<br><br>For more information, please reach out to me via <a href="mailto:uxbyorr@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/morrresearch/" target="_blank">LinkedIn</a>'
-}
+<p>These recommendations provided a roadmap for selecting materials that align with visitor expectations and enhance the museum experience. By tailoring the material choice to the context of use—moderated vs. unmoderated, in-person vs. remote—the museum can maximize visitor engagement and educational impact while minimizing potential barriers to interaction. These recomendataions were provided to designers and their experience team.</p>
 
 
-
-
-
-
-
-
-demo08: {
-    title: 'Research: Do Materials Matter to Museum Visitors?',
-    smallParagraph: '',
-    mediumImage: 'img/portfolio/P8.png',
-    largeParagraph: <b>Research Problem:</b> How do museum visitors perceive the value of 3D objects produced through different methods? Specifically, how do these perceptions vary when the objects are presented in isolation versus being compared directly with one another?<br><br>The study investigates the following research questions:<br>1. How do visitors rate the educational value, enjoyability, inherent value, and usefulness of 3D objects when presented in isolation?<br>2. How do visitors' rankings of these constructs change when comparing different types of 3D objects side by side?<br><br><b>Methodologies used:</b> A/B Testing, Ranked Survey, Likert Survey, Random Assignment, Lab Testing, In Situ Testing, Linear Modeling, Survey Design.<br><br><b>Tools Used:</b> IBM SPSS, R Studio, Qualtrics, Microsoft Excel, MeshLab, Microsoft Word.<br><br><b>Data Analyzed:</b> User ratings on educational value, enjoyability, inherent value, and usefulness in both lab and museum settings, comparative rankings of different 3D objects, user feedback during in situ testing.<br><br><b>Outcomes:</b> When evaluated in isolation, users rated all objects similarly across the constructs of educational value, enjoyability, inherent value, and usefulness. However, in the comparative phase, the grey gypsum object received the highest ratings, followed by the digital 3D object, the white plastic 3D print, and finally, the red plastic 3D print.<br><br><b>Design Considerations Recommendations:</b><br><b>1. Consistency and Material Authenticity:</b> In isolation, users valued all objects similarly, suggesting that consistency in the objects used across different experiences is crucial. However, if varying the objects, it is recommended to use those closest to the authentic material, as they are perceived more positively when compared directly. If authenticity is not an option, digital 3D objects may serve as a suitable alternative.<br><br><b>2. Leverage Digital 3D Objects:</b> Surprisingly, digital 3D objects ranked second in user preference, suggesting that digital representations can be highly effective in educational settings when physical replicas are unavailable. This opens up opportunities for museums to expand their digital offerings, especially in remote or online contexts.<br><br><b>3. Evaluate the Impact of Color:</b> The red plastic 3D print received the lowest rankings, highlighting the potential impact of color on user perception. Future studies should explore how different colors and finishes affect user engagement and perceived value, which could inform the choice of materials and colors in museum exhibits.<br><br><b>4. Implement Comparative Experiences in Museums:</b> Since users' perceptions changed when objects were presented side by side, museums might consider designing exhibits that allow visitors to compare different versions of an artifact. This could enhance the educational value of the experience and encourage deeper engagement with the material.<br><br><b>5. Use Mixed-Methods Approaches:</b> The combination of lab and in situ testing provided comprehensive insights into user perceptions, suggesting that mixed-methods approaches can be particularly effective in museum research. Future studies should continue to blend controlled and real-world testing environments to capture the full spectrum of user experiences.<br><br><b>6. Focus on User-Centered Design:</b> As user preferences varied based on the presentation context, museums should adopt a user-centered design approach, gathering continuous feedback to refine exhibit elements. This iterative process ensures that exhibits are tailored to meet visitor expectations and provide meaningful learning experiences.<br><br>The work described above is currently in the process of publication. For more information, please reach out to me via <a href="mailto:uxbyorr@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/morrresearch/" target="_blank">LinkedIn</a>.`
+           `
 },
+
+    
 
    demo09: {
     title: 'Research: The Impact of Confusion During Educational Gameplay',
     smallParagraph: '',
     mediumImage: 'img/portfolio/P9.png',
-    largeParagraph: `<b>Research Problem:</b> How does initial confusion during an interactive, online learning activity influence user outcomes and experiences? Specifically, is early confusion helpful or harmful in the context of educational gameplay?<br><br>The study investigates the following research questions:<br>1. How does early user behavior, such as confusion or success, impact learning outcomes and perceived engagement in an online science activity?<br>2. What role does feedback play in resolving confusion, and how does it affect user performance and experience?<br><br><b>Methodologies used:</b> Linear Modeling, Survey Design, Item Response Theory, Likert Scales, A/B Testing.<br><br><b>Tools Used:</b> IBM SPSS, R Studio, Adobe Photoshop, Adobe Illustrator, Adobe XD, Qualtrics, ZOOM, Microsoft Word, Microsoft Excel.<br><br><b>Data Analyzed:</b> Log data of user interactions, time-stamped actions, reflective responses, Likert-style ratings of enjoyment and engagement.<br><br><b>Outcomes:</b> The research identified that early confusion during the activity did not negatively impact learning outcomes or user satisfaction. Users who experienced confusion initially took more time per decision but eventually improved their performance with adequate feedback. Both users who succeeded early and those who faced early confusion demonstrated similar levels of understanding by the end of the activity.<br><br><b>Design Considerations Recommendations:</b><br><b>1. Embrace Initial Confusion:</b> Early confusion should not be viewed as inherently negative in user experience design. Instead, ensure that the system provides adequate support and feedback to help users navigate through their confusion, enabling them to achieve successful outcomes over time.<br><br><b>2. Provide Timely Feedback:</b> Effective feedback is crucial in resolving user confusion. Designers should focus on creating responsive systems that adapt to user behavior, offering guidance and support at critical moments to maintain engagement and facilitate learning.<br><br><b>3. Monitor User Behavior Data:</b> Analyzing user log data provides valuable insights into how users interact with educational tools. This data-driven approach allows for the identification of patterns and potential issues, informing iterative design improvements to enhance the user experience.<br><br><b>4. Design for User-Centered Learning:</b> Understanding that users may approach activities differently is essential. Designers should create flexible environments that accommodate diverse user experiences, ensuring that all users, regardless of their initial performance, can achieve positive outcomes.<br><br>The work described above is currently in the process of publication. For more information, please reach out to me via <a href="mailto:uxbyorr@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/morrresearch/" target="_blank">LinkedIn</a>.`
+    largeParagraph: `<h3><b>Objective:</b></h3>
+            <p>
+                The EPIC Bioscience educational platform at the Natural History Museum of Utah had recently launched a beta version of their Velvet Ants learning module. Within the module, there was an educational game where users took on the role of a Western Fence Lizard. Users were presented with various prey items (i.e., insects) which they had to choose to eat or ignore before the prey could flee. Users had no prior understanding of what they should eat or ignore, but they would receive feedback on correct or incorrect choices (if the prey fled, they received "too slow" feedback). This game was meant to teach users to identify patterns of safe insects or those (in this case, velvet ants) that would inflict pain. This game led into a larger module on mimicry concepts in nature, explaining how some non-poisonous animals disguise themselves as dangerous ones to survive. 
+            </p>
+            <p>
+                The designers wanted to know if users would get too confused and give up, their perceptions of usability, and what user feedback could improve the beta designs in terms of content and functionality. I was tasked with designing and executing a user study to uncover initial usability insights and provide the design team with actionable next steps for game development moving forward towards launch.
+            </p>
+
+            <h3><b>My Responsibilities: Research Associate</b></h3>
+            <ul>
+                <li><b>Research Design and Planning:</b> Developed and planned the remote research methodology, including participant recruitment criteria, testing environments, and materials selection.</li>
+                <li><b>Study Facilitation and Data Collection:</b> Acted as a remote study moderator during the pandemic. Collected all data from participants, which included video recordings, game response data, written responses, and interview feedback.</li>
+                <li><b>Data Processing and Analysis:</b> Processed and analyzed all collected data using both qualitative and quantitative methods to derive next steps for the design team.</li>
+                <li><b>Collaboration:</b> Partnered with stakeholders, the project manager, design team, and engineers to align research goals and communicate findings effectively.</li>
+                <li><b>Design Team Presentations:</b> Synthesized and presented final insights to the design team in collaborative meetings to showcase the data and my recommendations moving forward.</li>
+            </ul>
+
+            <h3><b>The Work:</b></h3>
+            <p>
+                This project focused on exploratory testing of the beta version of the Velvet Ants module of the EPIC Bioscience platform at the Natural History Museum of Utah. The aim was to determine whether an educational game designed to teach users mimicry concepts through a "learn by doing" approach had the desired impact, whether it was too confusing, and to identify any usability issues. 
+            </p>
+            <ul>
+                <li>Users were asked to complete gameplay as designed, complete a cognitive walkthrough, and participate in a semi-structured interview.</li>
+                <li><b>Data Utilization:</b> The collected quantitative and qualitative data were synthesized to inform the next steps in refining the game, its content, and its functionality before launch.</li>
+            </ul>
+
+            <h3><b>Methodologies, Data Processing, and Analysis:</b></h3>
+
+            <h5><b>Study Design:</b></h5>
+            <p>
+                This study was exploratory in nature, designed to gather initial insights without a hypothesis-driven framework. Users completed three rounds of the Velvet Ant Game, where they chose to ignore or eat specific insects one at a time. Correct choices received positive feedback, while incorrect choices received negative feedback. At the end of each round, users reviewed a summary screen showing all their choices and accuracy, then answered reflection questions about any patterns or features they noticed. This process repeated across rounds, increasing in complexity with the addition of mimic insects in the final round. Post-gameplay, users participated in a semi-structured interview to assess perceptions of educational value, usability, and encountered issues.
+            </p>
+
+            <h5><b>Methodologies:</b></h5>
+            <p>
+                A mixed-methods approach was employed, combining qualitative data (e.g., interviews and cognitive walkthroughs) to capture user perspectives, frustrations, and strategies, with quantitative data (e.g., game performance metrics) to validate or refute qualitative insights.
+            </p>
+
+            <h5><b>Data Processing:</b></h5>
+            <p>
+                Cognitive walkthrough and interview data were transcribed and coded for common themes and semantic patterns. Quantitative data, including game metrics (e.g., number of incorrect choices, decision-making time, and mimic identification accuracy), were exported and processed for statistical analysis. This dual approach ensured both broad trends and detailed user insights were captured.
+            </p>
+
+            <h5><b>Data Analyses:</b></h5>
+            <ul>
+                <li>
+                    <b>Quantitative Analysis:</b> Descriptive statistics were used to analyze performance trends across rounds, focusing on error rates, time-to-decision, and mimic identification. Correlations were examined to explore relationships between confusion in early rounds and subsequent performance improvements.
+                </li>
+                <li>
+                    <b>Qualitative Analysis:</b> Thematic and semantic coding of interview data provided nuanced insights into participant rationale, uncovering preferences and frustrations not captured by numerical data alone.
+                </li>
+            </ul>
+            <p>
+                These analytical methods were chosen to complement one another, with quantitative techniques revealing patterns and qualitative methods offering contextual depth to interpret user behavior.
+            </p>
+
+  <h3><b>Key Findings:</b></h3>
+<ul>
+    <li><b>Decision Time:</b>  
+    Users expressed feeling rushed, especially in the early rounds. Giving additional time for decision-making in the early stages helped reduce confusion and frustration, enhancing confidence and learning without negatively affecting the rest of the game.</li>
+
+    <li><b>Confusion Did Not Impair Learning:</b>  
+    Early confusion did not impede learning. Participants who faced challenges at the beginning gradually improved, catching up to those who succeeded earlier. This suggests that initial confusion may encourage deeper cognitive processing, leading to similar learning outcomes for all users.</li>
+
+    <li><b>Feedback Loops Enhanced Motivation:</b>  
+    Frequent feedback, including both positive and corrective, helped keep users engaged. Those who struggled in the early rounds appreciated the feedback, which motivated them to adjust their strategies and stay involved with the game.</li>
+
+    <li><b>Pattern Recognition Increased with Progress:</b>  
+    As users progressed, they began recognizing patterns in the prey choices (i.e., distinguishing safe vs. dangerous insects). By the later rounds, they made decisions faster and more confidently, showing an improved understanding of the game’s learning objectives.</li>
+</ul>
+
+<h3><b>Design Recommendations:</b></h3>
+<ul>
+    <li><b>Extend Decision Time in Early Rounds:</b>  
+    Based on user feedback, it is recommended to increase the decision time in the early rounds of the game. This would allow users to feel more confident in their choices without significantly impacting the overall pace of the game.</li>
+
+    <li><b>Maintain Feedback Systems for Engagement:</b>  
+    The feedback mechanism was highly appreciated by users, especially those who experienced confusion. It is important to retain or improve this system to provide continual guidance and support throughout the game, enhancing user motivation and learning.</li>
+
+    <li><b>Adjust Challenge Gradually:</b>  
+    The transition from simple to more complex rounds was effective. However, it may help to slightly increase the complexity in small, incremental steps to give users more time to adjust to the changing dynamics of the game and feel less overwhelmed.</li>
+
+</ul>
+
+        </>.`
 },
 
 
