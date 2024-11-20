@@ -480,7 +480,8 @@ This study aimed to provide a course designer with an automated system capable o
     title: 'Research: The Impact of Confusion During Educational Gameplay',
     smallParagraph: '',
     mediumImage: 'img/portfolio/P9.png',
-    largeParagraph: `<h3><b>Objective:</b></h3>
+    largeParagraph: `
+<h3><b>Objective:</b></h3>
             <p>
                 The EPIC Bioscience educational platform at the Natural History Museum of Utah had recently launched a beta version of their Velvet Ants learning module. Within the module, there was an educational game where users took on the role of a Western Fence Lizard. Users were presented with various prey items (i.e., insects) which they had to choose to eat or ignore before the prey could flee. Users had no prior understanding of what they should eat or ignore, but they would receive feedback on correct or incorrect choices (if the prey fled, they received "too slow" feedback). This game was meant to teach users to identify patterns of safe insects or those (in this case, velvet ants) that would inflict pain. This game led into a larger module on mimicry concepts in nature, explaining how some non-poisonous animals disguise themselves as dangerous ones to survive. 
             </p>
@@ -572,7 +573,117 @@ This study aimed to provide a course designer with an automated system capable o
     title: 'Research: Predicting User Success through Pathways in an Interactive Map',
     smallParagraph: '',
     mediumImage: 'img/portfolio/P10.png',
-    largeParagraph: `<b>Research Problem:</b> How do users navigate an interactive map, and how do their paths predict success in understanding complex systems? Specifically, this research focused on user interactions with an interactive map of the Cleveland-Lloyd Dinosaur Quarry to identify which pathways led to the most successful reasoning about fossil layers and their formation.<br><br>The study investigates the following research questions:<br>1. What patterns in user navigation paths correlate with successful critical thinking about fossil layers?<br>2. How can understanding these paths inform the design of interactive systems to improve user outcomes?<br><br><b>Methodologies used:</b> Data Mining, Evolutionary Algorithms, Log-Trace Processing, Process Mapping, Linear Modeling.<br><br><b>Tools Used:</b> IBM SPSS, R Studio, RapidMiner, Microsoft Excel, Microsoft Word.<br><br><b>Data Analyzed:</b> User navigation paths through the interactive map, written responses critically analyzing fossil layers, and the sequence in which users examined different types of fossils.<br><br><b>Outcomes:</b> The study revealed that users who initially examined varied herbivores, then explored layers associated with carnivores, and finally returned to herbivores were the most successful in reasoning about the quarry. This successful pathway pattern provided insights into user behavior that could be used to enhance educational tools.<br><br><b>Design Considerations Recommendations:</b><br><b>1. Implement Guided Pathways:</b> Based on the findings, the design team deployed a pedagogical agent to assist users who followed less successful pathways. This agent intervenes after a set time or when users exhibit less effective navigation patterns, offering guidance to improve their reasoning without directly providing answers.<br><br><b>2. Optimize User Pathways:</b> By understanding the navigation patterns that lead to success, designers can create more intuitive interfaces that encourage users to explore content in ways that enhance learning outcomes. This approach ensures that all users are supported in developing critical thinking skills.<br><br><b>3. Leverage Data Mining for Continuous Improvement:</b> Ongoing analysis of user navigation data allows for continuous refinement of the interactive system. This iterative process ensures that the design remains responsive to user needs, improving both user experience and educational effectiveness.<br><br>The work described above is currently in the process of publication. For more information, please reach out to me via <a href="mailto:uxbyorr@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/morrresearch/" target="_blank">LinkedIn</a>.`
+    largeParagraph: `
+<h3><b>Objective:</b></h3>
+            <p>
+                Designers and content creators of an inquiry-based learning platform (Research Quest) at the Natural History Museum of Utah aimed to provide additional support to users during a module involving a layered map of the Cleveland-Lloyd Dinosaur Quarry. Users were tasked with determining how numerous fossils from various species ended up in the same location. To guide support strategies, the team wanted to identify pathways to success taken by users who excelled in completing the task. I was tasked with understanding how users interacted with the map and determining what led to success based solely on logged interaction data.
+            </p>
+
+<h3><b>My Responsibilities:</b></h3>
+            <ul>
+                <li><b>Research Design and Planning:</b> Developed an approach to understand user behaviors strictly from their logged interactions with an already live system (researchquest.org).</li>
+                <li><b>Data Processing and Analysis:</b> Processed all user log-trace data, including toggled visibility of specific map layers, scoring of multiple-selection responses, and coding of typed responses.</li>
+                <li><b>Presentation of Findings:</b> Presented findings to the design team and project manager and submitted the work to an international conference (AERA), where it was presented.</li>
+            </ul>
+
+<h3><b>The Work:</b></h3>
+            <p>
+                This project focused on analyzing log-trace data to uncover successful user behaviors while interacting with a digital map designed for an inquiry-based learning module. The goal was to identify specific user actions and sequences that correlated with higher task success and inform the design of additional support features for struggling users.
+            </p>
+            <ul>
+                <li>All log-trace data were extracted, cleaned, and prepared for analysis, focusing on user interactions with map layers, response patterns, and session timing.</li>
+                <li>Patterns of behavior were classified into pathways to success, based on variations in how users explored the map and responded to task prompts.</li>
+            </ul>
+
+<h3><b>Methodologies, Data Processing, and Analysis:</b></h3>
+
+<h5><b>Study Design:</b></h5>
+<p>
+    This exploratory study investigated user interactions with a layered digital map of the Cleveland-Lloyd Dinosaur Quarry. The aim was to understand how users approached the challenge of forming hypotheses about the accumulation of fossils in the quarry by toggling the visibility of various map layers. The study relied on system-logged data to capture user behaviors and post-interaction assessments to evaluate understanding and reasoning depth.
+</p>
+
+<h5><b>Methodologies:</b></h5>
+<p>
+    A mixed-methods approach was adopted, integrating quantitative performance metrics with qualitative assessment of reasoning depth. All data were collected through system logging to minimize observer effects.
+</p>
+<ul>
+    <li>
+        <b>Interaction Logging:</b> 
+        <ul>
+            <li>Each toggle of a map layer’s visibility was logged, recording which layers were visible or hidden at every toggle event.</li>
+            <li>The complete state of layer visibility was logged after each change until the user proceeded to post-interaction assessment questions.</li>
+        </ul>
+    </li>
+    <li>
+        <b>Post-Interaction Questions:</b>
+        <ul>
+            <li>Users answered multiple assessment questions, scored for accuracy and depth of reasoning.</li>
+            <li>Reasoning depth was coded as either "shallow" (e.g., limited argumentation) or "deep" (e.g., complex, well-supported reasoning).</li>
+        </ul>
+    </li>
+</ul>
+
+<h5><b>Data Processing and Analysis:</b></h5>
+<p>
+    Logged data and assessment responses were processed using the following steps:
+</p>
+<ul>
+    <li>
+        <b>Performance Grouping:</b>
+        <ul>
+            <li>Users were divided into high and low performer groups based on assessment scores.</li>
+            <li>A cutoff score was determined to ensure a significant difference between groups, confirmed via Analysis of Variance (ANOVA).</li>
+        </ul>
+    </li>
+    <li>
+        <b>Evolutionary Algorithm Analysis:</b>
+        <ul>
+            <li>Data from high and low performer groups were analyzed using an evolutionary algorithm within the RapidMiner data mining platform.</li>
+            <li>The algorithm identified the most efficient and impactful interaction patterns, optimizing for performance at every step of user interaction.</li>
+        </ul>
+    </li>
+    <li>
+        <b>Behavioral Pattern Analysis:</b> Interaction patterns were examined to identify behaviors repeated most frequently by high-performing users, providing insights into effective exploration strategies.
+    </li>
+</ul>
+
+<h5><b>Rationale for Methodology Choices:</b></h5>
+<p>
+    This approach was designed to combine naturalistic data collection with robust analytical methods to uncover meaningful patterns in user behavior:
+</p>
+<ul>
+    <li><b>System Logging:</b> Capturing toggling behaviors unobtrusively ensured an authentic representation of user exploration strategies.</li>
+    <li><b>Performance-Based Grouping:</b> Dividing users into high and low performers allowed for a clear comparison of effective versus ineffective behaviors, grounded in measurable outcomes.</li>
+    <li><b>Evolutionary Algorithm:</b> Using data mining to optimize interaction patterns provided actionable insights into the most impactful exploration strategies, which can inform future interface designs or learning tools.</li>
+    <li><b>ANOVA Validation:</b> Ensuring significant differences between groups added rigor to the analysis, strengthening the validity of findings.</li>
+</ul>
+
+<h3><b>Key Findings:</b></h3>
+<ul>
+    <li><b>Strategic Layer Toggle Behavior of High Performers:</b>  
+    High performers displayed a pattern of toggling map layers based on the diet type of species (carnivore vs. herbivore) rather than focusing on individual species. This suggests a higher-level strategic approach to understanding the fossil distribution. They often hypothesized that herbivore fossils, found deeper in the quarry, became trapped, attracting carnivores who then became trapped themselves. This type of reasoning demonstrated a more cohesive and structured approach to solving the puzzle.</li>
+    
+    <li><b>Exploratory Nature of Low Performers:</b>  
+    Low performers, in contrast, tended to toggle individual species layers without focusing on broader patterns, which could indicate a more fragmented or less systematic exploration process. This approach lacked the structured reasoning observed in high performers and might have led to less accurate or deep hypotheses.</li>
+    
+    <li><b>Connection Between Layer Toggles and Hypothesis Development:</b>  
+    The layer toggle behavior was directly related to hypothesis testing. High performers used the toggling to refine their reasoning about how different species interacted within the quarry environment. This connection between map interaction and hypothesis development underscores the importance of how information is presented and interacted with in the environment.</li>
+</ul>
+
+<h3><b>Design Recommendations:</b></h3>
+<ul>
+    <li><b>Introduce a Diet Type Toggle:</b>  
+    In response to the observed focus on diet types (carnivores vs. herbivores), it is recommended to implement a toggle that allows users to easily filter species based on their diet type. This would help guide users, especially those in the low-performance group, toward a more strategic and structured approach similar to that of high performers. It would also streamline the exploration process and reduce unnecessary toggling of individual species.</li>
+    
+    <li><b>Leverage the Inquiry Environment for Cognitive Engagement:</b>  
+    Given that the environment fosters inquiry and encourages users to explore potential causes and effects, an adaptive support system was deemed unnecessary at this time. Through collaboration with content designers and project management, we determined that allowing users to engage in trial and error within this inquiry-based context is valuable. Instead of introducing excessive support mechanisms, focusing on providing tools like the diet-type toggle would align with the exploratory nature of the task while aiding navigation.</li>
+    
+    <li><b>Refine Map Layer Organization:</b>  
+    Further refinement could be made by grouping layers in a way that highlights the relationships between species of different diets. This can enhance users’ cognitive processing and hypothesis testing, guiding them to form deeper insights into how species may have interacted in the quarry.</li>
+</ul>
+
+
+`
 },
 
 demo11: {
