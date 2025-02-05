@@ -847,6 +847,68 @@ demo11: {
     // Initializing animatedModal for the triggers
     $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09,#demo10,#demo11,#demo12,#demo13,#demo14,#demo15,#demo16,#demo17,#demo18,#demo19,#demo20,#demo21,#demo22,#demo23,#demo24,#demo25,#demo26,#demo27,#demo28,#demo29,#demo30,#demo31,#demo32,#demo33,#demo34").animatedModal();
 
+    
+    
+    
+    // Rotating Quotes
+$(document).ready(function() {
+    var quotes = [
+          {
+            text: "\"If you think good design is expensive, you should look at the cost of bad design.\"",
+            citation: "- Ralf Speth, CEO at Jaguar"
+        },
+        {
+            text: "\"Pay attention to what users do, not what they say.\"",
+            citation: "- Jakob Nielsen, Co-Founder at Nielsen Norman Group"
+        },
+        {
+            text: "\"Want your users to fall in love with your designs? Fall in love with your users.\"",
+            citation: "- Dana Chisnell, Senior Fellow at Project Redesign"
+        },
+        {
+            text: "\"To find ideas, find problems. To find problems, talk to people.\"",
+            citation: "- Julie Zhuo, Former VP of Design at Meta"
+        },
+        {
+            text: "\"The best products are born from a deep empathy with the people who use them.\"",
+            citation: "- Bill Buxton, Researcher at Microsoft"
+        },
+        {
+            text: "\"Without data, you're just another person with an opinion.\"",
+            citation: "- William Deming, Data Scientist"
+        },
+        {
+            text: "\"Research has been called good business, a necessity, a gamble, a game. It is none of these – it’s a state of mind.\"",
+            citation: "- Martin H. Fischer, American Physician"
+        }
+    ];
+
+    var index = 0;
+
+    function showNextQuote() {
+        var currentQuote = quotes[index];
+        $('#rotating-text .quote-box').fadeOut(500, function() {
+            $(this).text(currentQuote.text).fadeIn(500);
+        });
+        $('#rotating-text .quote-citation').fadeOut(500, function() {
+            $(this).text(currentQuote.citation).fadeIn(500);
+        });
+
+        index = (index + 1) % quotes.length;
+    }
+
+    // Initialize the first quote
+    showNextQuote();
+
+    // Rotate quotes every 6 seconds
+    setInterval(showNextQuote, 6000);
+});
+
+    
+    
+    
+    
+    
     // Contact Form
 
     // validate contact form
