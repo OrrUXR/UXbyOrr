@@ -39,7 +39,8 @@
     <header class="navbar-fixed-top">
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
                 <!--<li><a href="#experience">experience</a></li>-->
                 <li><a href="#projects">Career Highlights</a></li>
                 <li><a href="#contact">contact</a></li>
@@ -49,16 +50,24 @@
     <!-- ./header -->
     
     <!-- home -->
-    <div class="section" id="home" data-stellar-background-ratio="0.5">
-        <div class="container">
-            <div class="disply-table">
-                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
-                    <h4>Matthew P. Orr, PhD</h4>
-                    <h1>UX<br />Researcher</h1> </div>
+   <div class="section" id="home" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="disply-table">
+            <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
+                <h4>Matthew P. Orr, PhD</h4>
+                <h1>UX<br />Researcher</h1>
             </div>
-            
         </div>
     </div>
+
+    <!-- Rotating Quotes Section -->
+    <div class="rotating-quotes">
+        <p id="rotating-text">
+            <span class="quote-box"></span>
+            <span class="quote-citation"></span>
+        </p>
+    </div>
+</div>
     <!-- ./home -->
     
     <!-- about -->
@@ -71,13 +80,11 @@
                 <p>With a PhD in Educational Psychology and a specialization in learning and cognition, I’ve dedicated my career to understanding how people interact with digital environments and how we can make those experiences more intuitive, effective, and impactful. Nearly all of the research projects I led during my time in academia were user-centered studies, exploring the nuances of human cognition in digital spaces. For example, my dissertation examined how interactions with 3D objects in virtual training environments influence cognitive engagement—a project that broadened my perspective on the power of thoughtful user experience design.</p>
                 <p>While I enjoyed the theoretical rigor of academia, my work with organizations like EPIC Bioscience and Hawaii Public Health showed me how deeply rewarding applied user research could be. In these roles, I conducted hands-on research to uncover user needs, frustrations, and behavioral patterns, translating insights into actionable improvements that had immediate, meaningful impacts on both product and user outcomes. This real-world impact is what drew me to UX research; there’s nothing quite like seeing how a research-backed change can drive user satisfaction, align stakeholder priorities, and improve business results.</p>
                 <p>My approach is comprehensive and multifaceted. I draw on a diverse toolkit of methodologies—from cognitive walkthroughs, think-aloud protocols, and A/B testing, to more specialized techniques like behavior and interaction analysis. Using these methods, I work to build a clear picture of user needs, triangulating insights to ensure that every design decision is rooted in a deep understanding of user behavior. Ultimately, my goal is to bridge the gap between user insights and design strategy, creating products that not only meet business goals but also enhance user experience in meaningful ways.</p>
-               
                 <div class="h-50"></div> 
                 <div class="h-50"></div>
             </div>
             <div class="col-md-6 about-img-div">
-                
-                <img src="img/headshot%202.png" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0"/>
+                <img src="img/headshot%202.png" width="400" class="img-responsive" alt="headshot" data-aos="fade-right" data-aos-delay="2"/>
             </div>
         </div>
     </div>
@@ -159,13 +166,13 @@
                             <nav class="categories">
                                 <ul class="portfolio_filter">
                                     <li><a href="" class="active" data-filter="*">All</a></li>
-                                     <li><a href="" data-filter=".resume">Resume</a></li>
-                                    <li><a href="" data-filter=".logo">Research</a></li>
+                                    <li><a href="" data-filter=".logo">Research Portfolio</a></li>
                                     <li><a href="" data-filter=".graphics">Design</a></li>
                                     <li><a href="" data-filter=".ads">Skills</a></li>
                                     <li><a href="" data-filter=".fashion">Courses Taught</a></li>
                                     <li><a href="" data-filter=".photography">Education</a></li>
                                     <li><a href="" data-filter=".add">Additional Roles</a></li>
+                                     <li><a href="" data-filter=".resume">Resume</a></li>
                                     <li><a href="" data-filter=".cv">Curriculum Vitae</a></li>
                                 </ul>
                             </nav>
@@ -177,10 +184,10 @@
                            
                               <!-- single work -->
                             <div class="col-md-4 col-sm-6  logo">
-                                <a id="demo06" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P6.png" alt="image" class="img-responsive" />
+                                <a id="project_1" href="./project_1.html" class="portfolio_item"> <img src="img/portfolio/P6.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Maximizing Engagement in Digital Training:</span> <em>How can we enhance cognitive engagement and task performance in digital hands-on training environments?</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Maximizing Engagement in Digital Training</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -191,7 +198,7 @@
                                 <a id="demo07" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P7.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>User Behavior Classification</span> <em>Can machine learning detect and classify user manipulations of digital 3D objects for personalized learning?</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>User Behavior Classification</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -202,7 +209,7 @@
                                 <a id="demo08" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P8.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Museum Visitor Perceptions of Objects</span> <em>Do museum visitors percieve varied tangible and digital 3D objects as equally impactful?</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Museum Visitor Perceptions of Objects</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -213,7 +220,7 @@
                                 <a id="demo09" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P9.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Confusion During Gameplay</span> <em>Is user confusion helpful or harmful during educational gameplay?</em> <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>Confusion During Gameplay</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -224,7 +231,7 @@
                                 <a id="demo10" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P10.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Evolutionary Optimization of User Factors</span> <em>Are some user behaviors more important than others?</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Evolutionary Optimization of User Factors</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -235,7 +242,7 @@
                                 <a id="demo11" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P11.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Physical Materials and User Outcomes</span> <em>Do learning outcomes differ between tanigble and digital materials?</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Physical Materials and User Outcomes</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -246,7 +253,7 @@
                                 <a id="demo12" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P12.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Erroneous Explanations and User Outcomes</span> <em>Do early errors impact long term outcomes?</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Erroneous Explanations and User Outcomes</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -257,7 +264,7 @@
                                 <a id="demo13" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P13.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Multimedia Materials and User Outcomes</span> <em>Do multimedia materials improve user understanding?</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Multimedia Materials and User Outcomes</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -268,7 +275,7 @@
                                 <a id="demo15" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P15.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Trends in Extended Reality in Informal Learning</span> <em>Book Chapter</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Trends in Extended Reality in Informal Learning</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -279,7 +286,7 @@
                                 <a id="demo14" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P14.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>User Medical Needs Assessment</span> <em>What are the needs of North Shore patients?</em> <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>User Medical Needs Assessment</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -292,7 +299,7 @@
                                 <a id="demo16" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P16.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Virtual Reality Environment for Hands-On Learning</span> <em>Real-World Manipulations of Digital 3D Objects</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Virtual Reality Environment for Hands-On Learning</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -303,7 +310,7 @@
                                 <a id="demo17" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P17.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Authentic Science Investigations</span> <em>How to facilitate real-world practices in digital spaces</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Authentic Science Investigations</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -315,7 +322,7 @@
                                 <a id="demo18" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P18.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Educational Comics for Science Learning</span> <em>Multimedia Materials Design</em> <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>Educational Comics for Science Learning</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -326,7 +333,7 @@
                                 <a id="demo19" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P19.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Logos </span> <em>EPIC Bioscience / WIHOA / Utah Quacken</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Logos </span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -338,7 +345,7 @@
                                 <a id="demo20" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P20.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Websites </span> <em>WIHOA / My Portfolio</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Websites </span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -350,7 +357,7 @@
                                 <a id="demo21" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P21.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Adobe Suite </span> <em>Asset Production Skills</em> <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>Adobe Suite</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -361,7 +368,7 @@
                                 <a id="demo22" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P22.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>User Research Methods</span>  <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>User Research Methods</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -372,7 +379,7 @@
                                 <a id="demo23" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P23.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Research Planning and Excecution</span> <em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Research Planning and Excecution</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -383,7 +390,7 @@
                                 <a id="demo24" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P24.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Data Analysis and Sythesis</span>  <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>Data Analysis and Sythesis</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -394,7 +401,7 @@
                                 <a id="demo25" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P25.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Tools and Software</span> <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>Tools and Software</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -405,7 +412,7 @@
                                 <a id="demo26" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P26.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Communication and Collaboration</span> <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>Communication and Collaboration</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -416,7 +423,7 @@
                                 <a id="demo27" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P27.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Instruction and Mentoring</span>  <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>Instruction and Mentoring</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -427,7 +434,7 @@
                                 <a id="demo28" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P28.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Web Development</span> <em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Web Development</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -438,7 +445,7 @@
                                 <a id="demo29" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P29.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Asset Production</span> <em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Asset Production</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -451,7 +458,7 @@
                                 <a id="demo30" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P30.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>EDPS 6560 -  Multimedia Learning</span> <em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>EDPS 6560 -  Multimedia Learning</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -462,7 +469,7 @@
                                 <a id="demo31" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P31.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>EDPS 6447 - Introduction to Web-Based Tools</span> <em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>EDPS 6447 - Introduction to Web-Based Tools</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -473,7 +480,7 @@
                                 <a id="demo32" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P32.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>USA Hockey Level 1, 2, 3, and 4</span> <em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>USA Hockey Level 1, 2, 3, and 4</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -484,7 +491,7 @@
                                 <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P1.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Education</span> <em>Doctor of Philosophy</em><em>Learning and Cognition </em> <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>Doctor of Philosophy</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -495,7 +502,7 @@
                                 <a id="demo02" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P2.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Education</span> <em>Master of Science</em><em>Learning and Cognition</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Master of Science</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -506,7 +513,7 @@
                                 <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P3.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Education</span><em>Graduate Certificate</em><em>Statistics and Analysis</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Certificate: Advanced Statistical Analysis</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -518,7 +525,7 @@
                                 <a id="demo04" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P4.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Education</span> <em>Bachelor of Science</em><em>Cognitive Neuroscience</em> <em>Click for more information</em></div>
+                                            <div class="item_info"> <span>Bachelor of Science</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -529,8 +536,7 @@
                                 <a id="demo05" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P5.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Education</span> <em>Research Certificate</em>
-                                            <em>Human Factors Research</em><em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Certificate: Human Factors Research</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -541,7 +547,7 @@
                                 <a id="demo33" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P33.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Current Resume</span> <em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Resume</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -552,7 +558,7 @@
                                 <a id="demo34" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/P34.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Current Academic CV</span> <em>Click for more information</em> </div>
+                                            <div class="item_info"> <span>Academic CV</span></div>
                                         </div>
                                     </div>
                                 </a>
@@ -572,51 +578,42 @@
     </div>
     <!-- ./projects -->
     
-    <!-- contact -->
-    <div class="section" id="contact">
-        <div class="container">
-            <div class="col-md-12">
-                <h4>03</h4>
-                <h1 class="size-50">Contact  Me</h1>
-                <div class="h-50"></div>
+<!-- contact -->
+<div class="section" id="contact">
+    <div class="container">
+        <div class="col-md-12">
+            <h4>03</h4>
+            <h1 class="size-50">Contact Me</h1>
+            <div class="h-50"></div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4" data-aos="fade-up">
+            <div class="contact-info">
+                 <!-- Contact Info -->
+                <!-- Phone Icon -->
+                <a href="tel:+18016914923" class="contact-icon">
+                    <i class="ion-ios-telephone"></i>
+                </a>
+
+                <!-- Email Icon -->
+                <a href="mailto:uxbyorr@gmail.com" class="contact-icon">
+                    <i class="ion-email"></i>
+                </a>
+
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/morrresearch/" target="_blank" class="contact-icon">
+                    <i class="ion-social-linkedin"></i>
+                </a>
             </div>
-            <div class="col-md-4" data-aos="fade-up">
-
-                <h3>Phone Number</h3>
-                <p>801 - 691 - 4923</p>
-                <h3>Email</h3>
-                <p><a href="mailto:uxbyorr@gmail.com">uxbyorr@gmail.com</a></p>
-
-                <h3>Social Network</h3>
-
-                <ul class="social">
-                    <li><a href="https://www.linkedin.com/in/morrresearch/"><i class="ion-social-linkedin"></i></a></li>
-                    <!--<li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li> -->
-                </ul>
-                <div class="clearfix"></div>
-                <div class="h-50"></div>
             </div>
-           <!-- <div class="col-md-8" data-aos="fade-up">
-                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
-                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
-                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
-                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
-                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
-                    <div id="success">
-                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
-                    </div>
-                    <div id="error">
-                        <p> Something went wrong, try refreshing and submitting the form again. </p>
-                    </div>
-                </form>
-            </div> -->
+
+            <div class="clearfix"></div>
+            <div class="h-50"></div>
         </div>
     </div>
-    <!-- ./contact -->
-
+</div>
+<!-- ./contact -->
 
     <!--DEMO01-->
   <div id="animatedModal" class="popup-modal">
