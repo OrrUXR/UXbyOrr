@@ -739,19 +739,20 @@ fieldset {
 /* Project 1 styling
 ==================================================*/
 /* Sidebar Styling */
-        .vertical-nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 215px;
-            height: 100%;
-            background-color: #374842;
-            padding-top: 100px;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+.vertical-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 215px;
+    height: 100%;
+    background-color: #374842;
+    padding-top: 100px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
         .vertical-nav a {
             padding: 15px 15px;
@@ -785,83 +786,116 @@ fieldset {
 
         /* Main Content Styling */
         .p1main-content {
-            margin-left: 214px;
-            padding-top: 0px;
+             margin-left: 215px; /* Matches the sidebar width */
+            padding-top: .001px;
             font-size: 18px;
+            transition: margin-left 0.3s ease; /* Smooth transition when resizing */
         }
 
         .p1section {
-            padding: 60px;
+            padding: 50px;
             color: #222 ;
         }
 
- #p1title {
+        #p1title {
             background-color:  #d6e3de;
             opacity: 116%;
             padding-top: 100px;
+              padding-right: 80px;
+            padding-left: 80px;
         }        
-#p1background {
+        #p1background {
             background-color:  #eef1f3;
-            opacity: 116%;
             padding-top: 100px;
+              padding-right: 80px;
+            padding-left: 80px;
         }
 
         #p1problem {
             background-color: #5f6e64;
             color: #f0f2f5;
+             padding-top: 100px;
+              padding-right: 80px;
+            padding-left: 80px;
         }
 
         #p1phase1 {
             background-color: #cfd5d2;
+             padding-top: 100px;
+              padding-right: 80px;
+            padding-left: 80px;
         }
 
         #p1phase2 {
             background-color: #7b868c;
               color: #f0f2f5;
+             padding-top: 100px;
+              padding-right: 80px;
+            padding-left: 80px;
         }
 
         #p1phase3 {
             background-color: #bcc2bb;
+             padding-top: 100px;
+              padding-right: 80px;
+            padding-left: 80px;
         }
 
         #p1results {
             background-color:  #a2a7a9;
+             padding-top: 100px;
+              padding-right: 80px;
+            padding-left: 80px;
         }
 
         #p1recommendations {
             background-color: #f1f4f4;
+             padding-top: 100px;
+              padding-right: 80px;
+            padding-left: 80px;
         }
 
         #p1lessons {
             background-color:  	#6e7b77;
               color: #f0f2f5;
+             padding-top: 100px;
+            padding-right: 80px;
+            padding-left: 80px;
+            
         }
+.pimg-responsive {
+    display: block;  /* Makes the image a block element */
+    margin: 0 auto;  /* Centers the image horizontally */
+    max-width: 100%;  /* Makes the image resize to fit its container */
+    height: auto;     /* Maintains the image's aspect ratio */
+    /* Optional: Set a max-width for better control */
+    max-width: 800px; /* Adjust based on your desired max width for larger screens */
+}
 
-        /* Responsive Sidebar */
-        @media screen and (max-width: 768px) {
-            .vertical-nav {
-                width: 100px;
-            }
-
-            .vertical-nav a {
-                text-align: center;
-                padding: 10px;
-            }
-
-            .main-content {
-                margin-left: 100px;
-            }
-        }
+/* Hide Sidebar on Small Screens */
+@media (max-width: 768px) {
+    .vertical-nav {
+        display: none; /* Completely remove the sidebar */
+    }
+    .p1main-content {
+        margin-left: 0; /* No margin since sidebar is hidden */
+        width: 100%; /* Full width */
+        
+    }
+}
 
 
 /* Responsive media queries
 ==================================================*/
 
+
 @media (max-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+    
 }
+
 
 @media (max-width: 768px) {
     .timeline-event-copy {
