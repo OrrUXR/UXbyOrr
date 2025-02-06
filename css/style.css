@@ -790,6 +790,7 @@ fieldset {
             padding-top: .001px;
             font-size: 18px;
             transition: margin-left 0.3s ease; /* Smooth transition when resizing */
+            
         }
 
         .p1section {
@@ -799,68 +800,49 @@ fieldset {
 
         #p1title {
             background-color:  #d6e3de;
-            opacity: 116%;
-            padding-top: 100px;
-              padding-right: 80px;
-            padding-left: 80px;
+           padding: 4vw;
         }        
         #p1background {
             background-color:  #eef1f3;
-            padding-top: 100px;
-              padding-right: 80px;
-            padding-left: 80px;
+            padding: 4vw;
         }
 
         #p1problem {
             background-color: #5f6e64;
             color: #f0f2f5;
-             padding-top: 100px;
-              padding-right: 80px;
-            padding-left: 80px;
+             padding: 4vw;
         }
 
         #p1phase1 {
             background-color: #cfd5d2;
-             padding-top: 100px;
-              padding-right: 80px;
-            padding-left: 80px;
+            padding: 4vw;
         }
 
         #p1phase2 {
             background-color: #7b868c;
               color: #f0f2f5;
-             padding-top: 100px;
-              padding-right: 80px;
-            padding-left: 80px;
+            padding: 4vw;
         }
 
         #p1phase3 {
             background-color: #bcc2bb;
-             padding-top: 100px;
-              padding-right: 80px;
-            padding-left: 80px;
+             padding: 4vw;
         }
 
         #p1results {
             background-color:  #a2a7a9;
-             padding-top: 100px;
-              padding-right: 80px;
-            padding-left: 80px;
+            padding: 4vw;
         }
 
         #p1recommendations {
             background-color: #f1f4f4;
-             padding-top: 100px;
-              padding-right: 80px;
-            padding-left: 80px;
+             padding: 4vw;
         }
 
         #p1lessons {
             background-color:  	#6e7b77;
               color: #f0f2f5;
-             padding-top: 100px;
-            padding-right: 80px;
-            padding-left: 80px;
+            padding: 4vw;
             
         }
 .pimg-responsive {
