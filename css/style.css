@@ -800,7 +800,10 @@ fieldset {
 
         #p1title {
             background-color:  #d6e3de;
-           padding: 4vw;
+           padding-bottom: 4vw;
+            padding-left: 4vw;
+            padding-right: 4vw;
+    
         }        
         #p1background {
             background-color:  #eef1f3;
