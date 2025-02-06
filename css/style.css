@@ -869,7 +869,9 @@ fieldset {
     max-width: 100%;  /* Makes the image resize to fit its container */
     height: auto;     /* Maintains the image's aspect ratio */
     /* Optional: Set a max-width for better control */
-    max-width: 800px; /* Adjust based on your desired max width for larger screens */
+    max-width: 900px; /* Adjust based on your desired max width for larger screens */
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /* Hide Sidebar on Small Screens */
@@ -893,6 +895,9 @@ fieldset {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+       .pimg-responsive {
+        max-width: 100%;  /* Further reduces image size to 80% of its container */
+    }
     
 }
 
@@ -902,6 +907,7 @@ fieldset {
         width: 90%;
         left: 2em;
     }
+    
 }
 
 @media (max-width: 500px) {
