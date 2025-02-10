@@ -871,6 +871,71 @@ fieldset {
     }
 }
 
+/* P2 Content Style
+==================================================*/
+
+   /* Main Content Styling */
+        .p2main-content {
+             margin-left: 215px; /* Matches the sidebar width */
+            padding-top: .001px;
+            font-size: 18px;
+            transition: margin-left 0.3s ease; /* Smooth transition when resizing */
+            
+        }
+
+        .p2section {
+            padding: 50px;
+            color: #222 ;
+        }
+
+        #p2title {
+            background-color:  #d9dad6;
+           padding-bottom: 4vw;
+            padding-left: 4vw;
+            padding-right: 4vw;
+    
+        }        
+        #p2background {
+            background-color:  #aab8b3;
+            padding: 4vw;
+        }
+
+        #p2problem {
+            background-color:#7a8a7c;
+            color: #f0f2f5;
+             padding: 4vw;
+        }
+
+        #p1study {
+            background-color: #c3c7b9;
+            padding: 4vw;
+        }
+
+           #p2results {
+            background-color:  #6e8187;
+                color: #f0f2f5;
+            padding: 4vw;
+        }
+
+     
+        #p2lessons {
+            background-color:  	#d0d5c8;
+          
+            padding: 4vw;
+            
+        }
+
+/* Hide Sidebar on Small Screens */
+@media (max-width: 768px) {
+    .vertical-nav {
+        display: none; /* Completely remove the sidebar */
+    }
+    .p2main-content {
+        margin-left: 0; /* No margin since sidebar is hidden */
+        width: 100%; /* Full width */
+        
+    }
+}
 
 /* Responsive media queries
 ==================================================*/
